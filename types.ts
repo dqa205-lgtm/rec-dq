@@ -3,6 +3,7 @@ export interface Place {
   id: string;
   name: string;
   tags: string[];
+  summary: string;
 }
 
 export interface Answer {
